@@ -61,4 +61,12 @@ section {
 .hero {
   background-image: url("assests\images\hero-bg.jpg");
   height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+.hero-form {
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  color: #024e76;
 }
