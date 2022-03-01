@@ -59,13 +59,14 @@ section {
   padding: 60px;
 }
 .hero {
-  background-image: url("assests\images\hero-bg.jpg");
+  background-image: url("./images/hero-bg.jpg");
   height: 600px;
   background-size: cover;
   background-position: center;
   position: relative;
 }
 .hero-form {
+  border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
   width: 500px;
@@ -78,7 +79,7 @@ section {
   font-size: 24px;
   margin: 0;
 }
-.hero-form p {
+.hero-form-p {
   margin: 5px 0 15px 0;
 }
 .form-input {
@@ -87,9 +88,10 @@ section {
   padding: 7px 15px;
   font-size: 16px;
   color: #024e76;
+  width: 100%
   margin-bottom: 15px;
 }
-.hero-form label {
+.hero-form-label {
   margin: 0px 5px;
 }
 .hero-form button {
